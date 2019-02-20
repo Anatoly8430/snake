@@ -20,6 +20,16 @@ namespace Snake
             char syn2 = '*';
             Draw(X2, Y2, syn2);
 
+            int X3 = 10;
+            int Y3 = 16;
+            char syn3='*';
+            Draw(X3, Y3, syn3);
+
+            int X4 = 20;
+            int Y4 = 30;
+            char syn4 = '*';
+            Draw(X4, Y4, syn4);
+
         }
         static void Draw( int X, int  Y, char syn)
         {
