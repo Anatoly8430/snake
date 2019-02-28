@@ -22,7 +22,13 @@ namespace Snake
             p2.syn = '*';
             p2.Draw();
 
-            
+            Point p3 = new Point();
+            p3.X = 10;
+            p3.Y = 14;
+            p3.syn = '*';
+            p3.Draw();
+
+
 
         }
         
