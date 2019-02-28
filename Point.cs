@@ -20,5 +20,10 @@ namespace Snake
             Console.ReadLine();
 
         }
+
+        public Point()
+        {
+            Console.WriteLine(" Выставили новую точку"); 
+        }
     }
 }
