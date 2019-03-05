@@ -8,22 +8,32 @@ namespace Snake
 {
     class Point
     {
-        public int X;
-        public int Y;
+        public int x;
+        public int y;
         public char syn;
+
+        public Point()
+        {
+            Console.WriteLine("Введена новая точка");
+        }
+
+        public Point(int _X, int _Y, char _syn)
+        {
+            x = _X;
+            y = _Y;
+            syn = _syn;
+        }
+
 
         public void Draw()
         {
-            Console.SetCursorPosition(X, Y);
+            Console.SetCursorPosition(x, y);
             Console.WriteLine(syn);
             Console.ReadLine();
             Console.ReadLine();
 
         }
 
-        public Point()
-        {
-            Console.WriteLine(" Выставили новую точку"); 
-        }
+        
     }
 }
