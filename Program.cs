@@ -15,6 +15,10 @@ namespace Snake
             Line.Draw();
             Console.ReadLine();
 
+            VerticalLine Line1 = new VerticalLine(10, 20, 10, '*');
+            Line1.Draw();
+            Console.ReadLine();
+
         }
     }
 }
