@@ -29,8 +29,8 @@ namespace Snake
         {
             Console.SetCursorPosition(x, y);
             Console.WriteLine(syn);
-            Console.ReadLine();
-            Console.ReadLine();
+            
+            
 
         }
 
