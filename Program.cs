@@ -11,14 +11,23 @@ namespace Snake
         static void Main(string[] args)
         {
 
-            HorizontalLine Line = new HorizontalLine(5 , 10, 10, '*');
-            Line.Draw();
-            Console.ReadLine();
+            HorizontalLine UpLine = new HorizontalLine(0 , 118, 0, '#');
+            UpLine.Draw();
+            
 
-            VerticalLine Line1 = new VerticalLine(10, 20, 10, '*');
-            Line1.Draw();
-            Console.ReadLine();
+            VerticalLine LeftLine = new VerticalLine(0, 29, 0, '#');
+            LeftLine.Draw();
+            
 
+            HorizontalLine DownLine = new HorizontalLine(0, 118, 29, '#');
+            DownLine.Draw();
+            
+
+            VerticalLine RightLine = new VerticalLine(0, 29, 118, '#');
+            RightLine.Draw();
+
+
+            Console.ReadLine();
         }
     }
 }
