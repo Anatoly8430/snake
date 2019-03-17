@@ -11,6 +11,7 @@ namespace Snake
         public int x;
         public int y;
         public char syn;
+        internal static Point tall;
 
         public Point()
         {
@@ -50,6 +51,12 @@ namespace Snake
             {
                 y = y - offset;
             }
+        }
+
+        public void Clear()
+        {
+            syn = ' ';
+            Draw();
         }
 
         public void Draw()
