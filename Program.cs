@@ -28,6 +28,11 @@ namespace Snake
 
 
             Console.ReadLine();
+
+            Point p = new Point(10, 15, '*');
+            Snake snake = new Snake(p, 10, Direction.UP);
+            snake.Draw();
+            Console.ReadLine();
         }
     }
 }
